@@ -1,0 +1,74 @@
+# Labeler Configuration
+# Used by auto-label.yml workflow
+
+# Documentation changes
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.md'
+          - 'docs/**/*'
+
+# Frontend changes
+frontend:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'src/**/*.tsx'
+          - 'src/**/*.ts'
+          - 'src/**/*.css'
+          - 'src/**/*.scss'
+          - 'components/**/*'
+          - 'pages/**/*'
+          - 'app/**/*'
+
+# Backend changes
+backend:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'api/**/*'
+          - 'server/**/*'
+          - '**/*.py'
+
+# Configuration changes
+configuration:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.json'
+          - '**/*.yml'
+          - '**/*.yaml'
+          - '**/*.toml'
+          - '.env*'
+
+# CI/CD changes
+ci-cd:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.github/**/*'
+          - 'Dockerfile*'
+          - 'docker-compose*'
+
+# Test changes
+tests:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.test.ts'
+          - '**/*.test.tsx'
+          - '**/*.test.js'
+          - '**/*.spec.ts'
+          - '**/*.spec.tsx'
+          - 'tests/**/*'
+          - '__tests__/**/*'
+          - 'test_*.py'
+          - '*_test.py'
+
+# Dependencies
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'package.json'
+          - 'package-lock.json'
+          - 'yarn.lock'
+          - 'pnpm-lock.yaml'
+          - 'requirements.txt'
+          - 'requirements*.txt'
+          - 'Pipfile*'
+          - 'poetry.lock'
