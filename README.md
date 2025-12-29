@@ -47,7 +47,7 @@ GitHub Actions is powerful, but the learning curve is steep:
 ### Option 2: Clone Everything
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/github-actions-starter-kit.git
+git clone https://github.com/jamesships/github-actions-starter-kit.git
 cp -r github-actions-starter-kit/.github/workflows/* your-project/.github/workflows/
 ```
 

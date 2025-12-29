@@ -26,7 +26,7 @@ updates:
       - "dependencies"
       - "automated"
     reviewers:
-      - "YOUR_GITHUB_USERNAME"  # TODO: Replace with your username
+      - "jamesships"  # TODO: Replace with your username
 
   # GitHub Actions
   - package-ecosystem: "github-actions"
